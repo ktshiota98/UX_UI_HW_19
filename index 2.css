@@ -1,0 +1,161 @@
+
+.mySkills{
+    background-color: #494949;
+    width: 1440px;
+    height: 900px;
+    color: #C6D7E3;
+}
+h1{
+    text-align: center;
+    align-content: center;
+    padding-top: 100px;
+    
+}
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.uiUx{
+    width: 20%;
+    margin: 5%;
+    padding: 10px;
+    
+    
+}
+.Coding{
+    width: 20%;
+    margin:5%;
+    padding: 10px;
+    
+}
+.Modeling{
+    width: 20%;
+    margin:5%;
+    padding: 10px;
+    
+}
+.Other{
+    width: 20%;
+    margin:5%;
+    padding: 10px;
+}
+.myWork{
+    background-color: #8DAFC8;
+    width:1440px;
+    height: 2000px;
+}
+.intro{
+    font-size: 20px;
+    color: #516777;
+    text-align: center;
+    align-content: center;
+    padding-top: 100px;
+}
+.workMy{
+    font-size: 25px;
+    color: #516777;
+    text-align: center;
+    align-content: center;
+}
+.workGrid{
+    display:grid;
+    grid-template-columns:auto;
+    grid-template-rows: 300px 300px 300px;
+    grid-gap: 300px;
+    padding: 10px;
+}
+.breezyBooking{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+}
+.breezybookingText{
+    width: 30%;
+    height: 300px;
+    color: #516777;
+    display: flex;
+    flex-direction: column;
+    margin-top: -50px;
+    margin-right:-250px;
+    grid-area: breezyBooking;
+    
+    
+}
+.breezybookingImg{
+    display: flex;
+    flex-direction: column;
+    margin-left:-250px;
+}
+.fred{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+}
+.fredImg{
+    display: flex;
+    flex-direction: column;
+    margin-right:-250px;
+}
+
+.fredText{
+    width: 30%;
+    height: 300px;
+    color: #516777;
+    display: flex;
+    flex-direction: column;
+    margin-top: -50px;
+    margin-left:-250px;
+    grid-area: fred;
+}
+.doi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+}
+.doiText{
+    width: 30%;
+    height: 300px;
+    color: #516777;
+    display: flex;
+    flex-direction: column;
+    margin-top: -50px;
+    margin-right:-250px;
+    grid-area: doi;
+}
+.doiImg{
+    display: flex;
+    flex-direction: column;
+    margin-left:-250px;
+}
+@media only screen and (max-width: 600px) {
+    .mySkills{
+        width: 100%;
+    }
+    .flexContainer{
+        flex-direction: column;
+    }
+    .uiUx{
+        width: 50%; 
+    }
+    .Coding{
+        width: 50%;
+    }
+    .Modeling{
+        width: 50%;
+    }
+    .Other{
+        width: 50%;
+    }
+   .workGrid{
+        grid-template-rows: 300px 300px 300px;
+        grid-template-columns:1fr;
+    }
+
+}
