@@ -1,5 +1,64 @@
+* { margin: 0; padding: 0; }
+.navigation{
+    background-color: #373738;
+    width: 1440px;
+    margin-top:25px;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: bold;
+    margin: 0;
+    padding: 0;
+    
+}
+a{
+    color: whitesmoke;
+    float: left;
+    padding: 10px;
+    padding-left: 40px;
+    text-decoration: none;
+}
+#header{
+    padding: 10px;
+    list-style-type: none;
+    text-align: right;
+}
+.inline-block{
+    display:inline-block;
+    vertical-align:top;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: right;
+    
+}
+.logo{
+    width: 23%;
+    padding:1%;
+    text-align:left;
+}
+nav{
+    width: 50%;
+    padding:1%;
+}
 
-.mySkills{
+#heroImg{
+    height: 900px;
+    width: 1440px;
+    background-color: #8DAFC8;
+}
+.content{
+    position: absolute;
+    color: whitesmoke;
+    width: 700px;
+    top: 50%;
+    left: 30%;
+    text-align:center;
+    margin-left: -50px; 
+    margin-top: -10px;
+    font-size: 20px;
+    
+    
+}
+#mySkills{
     background-color: #494949;
     width: 1440px;
     height: 900px;
@@ -15,32 +74,37 @@ h1{
     display: flex;
     flex-direction: row;
 }
-
+h2{
+    padding-bottom: 20px;
+}
+h3{
+    padding-bottom: 20px;
+}
 .uiUx{
     width: 20%;
     margin: 5%;
-    padding: 10px;
+    padding: 20px;
     
     
 }
 .Coding{
     width: 20%;
     margin:5%;
-    padding: 10px;
+    padding: 20px;
     
 }
 .Modeling{
     width: 20%;
     margin:5%;
-    padding: 10px;
+    padding: 20px;
     
 }
 .Other{
     width: 20%;
     margin:5%;
-    padding: 10px;
+    padding: 20px;
 }
-.myWork{
+#myWork{
     background-color: #8DAFC8;
     width:1440px;
     height: 2000px;
@@ -133,6 +197,15 @@ h1{
     display: flex;
     flex-direction: column;
     margin-left:-250px;
+}
+footer{
+    width: 1440px;
+    background-color: #373738;
+    padding:1%;
+}
+footer.ul{
+    display: inline-block;
+    vertical-align:top;
 }
 @media only screen and (max-width: 600px) {
     .mySkills{
